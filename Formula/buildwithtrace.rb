@@ -2,6 +2,7 @@ class Buildwithtrace < Formula
   desc "AI-powered PCB design CLI"
   homepage "https://buildwithtrace.com"
   url "https://github.com/buildwithtrace/trace-cli/releases/latest/download/buildwithtrace-0.1.0.tar.gz"
+  version "0.1.0"
   sha256 "REPLACE_WITH_REAL_SHA256"
   license "Proprietary"
 
