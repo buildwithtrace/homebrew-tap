@@ -46,4 +46,4 @@ brew doctor
 brew reinstall buildwithtrace
 ```
 
-For more help, visit [buildwithtrace.com/docs](https://buildwithtrace.com/docs) or open an issue on [GitHub](https://github.com/buildwithtrace/trace-cli/issues).
+For more help, visit [buildwithtrace.com/docs](https://buildwithtrace.com/docs) or open an issue on [GitHub](https://github.com/buildwithtrace/cli/issues).
