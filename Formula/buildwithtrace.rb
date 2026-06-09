@@ -3,6 +3,10 @@ class Buildwithtrace < Formula
   homepage "https://buildwithtrace.com"
   url "https://github.com/buildwithtrace/cli/releases/latest/download/buildwithtrace-0.1.0.tar.gz"
   version "0.1.0"
+  # url/version/sha256 are REWRITTEN by trace-cli's `update-homebrew` release job
+  # (the sha256 is computed from the published tarball post-build — it can't be
+  # known until the release artifact exists). The placeholder below is resolved
+  # automatically on the first real release; do not hand-edit.
   sha256 "REPLACE_WITH_REAL_SHA256"
   license "Proprietary"
 
