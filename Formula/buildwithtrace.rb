@@ -1,13 +1,13 @@
 class Buildwithtrace < Formula
   desc "AI-powered PCB design CLI"
   homepage "https://buildwithtrace.com"
-  url "https://files.pythonhosted.org/packages/7a/0f/f200c5460d12c57a765a5e6089a4812354ff73bf050600c86bb0891b39a9/buildwithtrace-0.1.4.tar.gz"
-  version "0.1.4"
+  url "https://files.pythonhosted.org/packages/e9/1f/99fd5cadab9b2df2f5746fa9e1c3305619f84554cf2b1f22b07524705c19/buildwithtrace-0.1.5.tar.gz"
+  version "0.1.5"
   # url/version/sha256 are REWRITTEN by trace-cli's `update-homebrew` release job
   # (the sha256 is computed from the published tarball post-build — it can't be
   # known until the release artifact exists). The placeholder below is resolved
   # automatically on the first real release; do not hand-edit.
-  sha256 "7e9762518e8b27f3491d609bcf8172fc71593a3117628aa26f5b37c2e974bfe1"
+  sha256 "3fd72f213a8029501ccacd504c0f37a107e6482f61ac4ca537f70fe1a1c0d46c"
   license "Proprietary"
 
   depends_on "python@3.12"
