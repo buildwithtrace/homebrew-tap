@@ -16,6 +16,10 @@ class Buildwithtrace < Formula
     venv = virtualenv_create(libexec, "python3.12")
     venv.pip_install_and_link buildpath
 
+    # Stamp the install origin so `buildwithtrace --version` / `doctor` label
+    # this copy "(homebrew)" — the CLI reads <venv root>/trace-install-origin.
+    (libexec/"trace-install-origin").write "homebrew\n"
+
     # Single canonical command: `buildwithtrace`. We deliberately do not link a
     # `trace` binary because it collides with the macOS system /usr/bin/trace.
     (bin/"buildwithtrace").write_env_script(
